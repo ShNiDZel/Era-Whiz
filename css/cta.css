@@ -1,0 +1,136 @@
+/* ==================================================
+    Section CTA
+    ================================================== */
+
+.section-cta {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-smi);
+    color: var(--text-default);
+    font-family: var(--font-roboto);
+}
+
+.section-cta .cta-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section-cta .banner-line {
+    align-self: stretch;
+    position: relative;
+    background-color: var(--border-default);
+    height: 1px;
+}
+
+.section-cta .banner-grid {
+    align-self: stretch;
+    border-radius: var(--br-11xs);
+    background-color: rgba(218, 197, 167, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base) 0px;
+    gap: var(--gap-13xl);
+}
+
+.section-cta .grid-item {
+    position: relative;
+    letter-spacing: 1.5px;
+    line-height: 160%;
+    text-transform: uppercase;
+    width: 100%;
+    align-self: center;
+    white-space: nowrap;
+}
+
+.section-cta .cta-content {
+    align-self: stretch;
+    background-color: var(--background-muted);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 160px 48px;
+    gap: var(--gap-13xl);
+    text-align: center;
+}
+
+.section-cta .project-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.section-cta .project-title {
+    position: relative;
+    letter-spacing: 1.5px;
+    line-height: 160%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.section-cta .project-subtitle {
+    position: relative;
+    font-size: 128px;
+    line-height: 100%;
+    font-family: var(--font-actor);
+    text-align: center;
+}
+
+.section-cta .subtitle-text {
+    margin: 0;
+}
+
+.section-cta .subtitle-highlight {
+    margin: 0;
+    font-family: var(--font-afacad);
+}
+
+.section-cta .project-description {
+    width: 500px;
+    position: relative;
+    font-size: 20px;
+    line-height: 170%;
+    font-family: var(--font-almarai);
+    color: var(--text-muted);
+    display: inline-block;
+}
+
+.section-cta .cta-button {
+    border-radius: var(--br-11xs);
+    background-color: var(--text-default);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px var(--padding-base);
+    gap: var(--gap-5xs);
+    text-align: left;
+    color: var(--text-inverse);
+}
+
+.section-cta .button-text {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 160%;
+}
+
+.section-cta .button-icon {
+    width: 18px;
+    position: relative;
+    height: 18px;
+    filter: invert(1);
+}

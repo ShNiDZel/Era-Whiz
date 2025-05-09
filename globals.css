@@ -1,0 +1,87 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #0e0e0e;
+}
+
+button:focus-visible {
+    outline: 2px solid #4a90e2 !important;
+    outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    /* Fonts */
+    --font-inter: Inter;
+    --font-actor: Actor;
+    --font-almarai: Almarai;
+    --font-roboto: Roboto;
+    --font-afacad: Afacad;
+    --font-poppins: Poppins;
+    --font-gabarito: Gabarito;
+
+    /* Font sizes */
+    --font-size-smi: 13px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-5xl: 24px;
+    --font-size-29xl: 48px;
+    --font-size-45xl: 64px;
+
+    /* Colors */
+    --color-gray-100: rgba(255, 255, 255, 0.15);
+    --color-gray-200: rgba(255, 255, 255, 0.05);
+
+    /* Gaps */
+    --gap-0: 0px;
+    --gap-9xs: 4px;
+    --gap-5xs: 8px;
+    --gap-xs: 12px;
+    --gap-base: 16px;
+    --gap-13xl: 32px;
+    --gap-29xl: 48px;
+    --gap-45xl: 64px;
+
+    /* Paddings */
+    --padding-5xs: 8px;
+    --padding-3xs: 10px;
+    --padding-xs: 12px;
+    --padding-base: 16px;
+    --padding-13xl: 32px;
+    --padding-21xl: 40px;
+    --padding-29xl: 48px;
+    --padding-45xl: 64px;
+    --padding-141xl: 160px;
+
+    /* Border radiuses */
+    --br-11xs: 5px;
+    --br-base: 16px;
+    --br-481xl: 500px;
+
+    /* Effects */
+    --blur-default: blur(30px);
+
+    /* Figma Variables */
+    --background-muted: rgba(218, 197, 167, 0.05);
+    --background-primary: #dac5a7;
+    --border-default: rgba(218, 197, 167, 0.15);
+    --text-inverse: #0e0e0e;
+    --text-muted: rgba(218, 197, 167, 0.6);
+
+    /* Color Variables */
+    --border-default: rgba(218, 197, 167, 0.15);
+    --text-default: #dac5a7;
+}

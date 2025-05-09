@@ -1,0 +1,240 @@
+.footer {
+    width: 100%;
+    position: relative;
+    background-color: var(--background-muted);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 64px var(--padding-base);
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: var(--font-size-smi);
+    color: var(--background-primary);
+    font-family: var(--font-roboto);
+}
+
+.container {
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.grid {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 64px;
+}
+
+.column {
+    align-self: stretch;
+    width: 460px;
+    border-radius: var(--br-base);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0px;
+    color: var(--text-muted);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.whatsapp-image-2025-05-06-at-1 {
+    width: 84px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.badge {
+    width: 38px;
+    backdrop-filter: var(--blur-default);
+    border-radius: var(--br-481xl);
+    background-color: var(--background-muted);
+    border: 1px solid var(--border-default);
+    box-sizing: border-box;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xs);
+}
+
+.phinstagram-logo-light-icon {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+
+.instagram {
+    position: relative;
+    letter-spacing: 1.5px;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.column1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+}
+
+.pages {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    letter-spacing: 1px;
+    line-height: 140%;
+    font-family: var(--font-actor);
+}
+
+.nav {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    color: var(--text-muted);
+}
+
+.home {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 1.5px;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.button {
+    border-radius: 2px;
+    background-color: var(--background-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px var(--padding-base);
+    gap: 8px;
+    color: var(--text-inverse);
+}
+
+.pharrow-up-right-light-icon {
+    width: 18px;
+    position: relative;
+    height: 18px;
+}
+
+.column2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-actor);
+}
+
+.cms {
+    position: relative;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+
+.nav1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-smi);
+    color: var(--text-muted);
+    font-family: var(--font-roboto);
+}
+
+.grid6 {
+    align-self: stretch;
+    border-radius: var(--br-base);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 48px;
+    font-size: 12px;
+    color: var(--text-muted);
+    font-family: var(--font-almarai);
+}
+
+.made-by-pawel {
+    width: 1398px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 180%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.grid7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-smi);
+    color: var(--background-primary);
+    font-family: var(--font-roboto);
+}
+
+.badge4 {
+    width: 46px;
+    backdrop-filter: var(--blur-default);
+    border-radius: var(--br-481xl);
+    background-color: var(--background-muted);
+    border: 1px solid var(--border-default);
+    box-sizing: border-box;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xs);
+}
+
+.pharrow-up-light-icon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
